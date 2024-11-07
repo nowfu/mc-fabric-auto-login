@@ -49,9 +49,7 @@ public class GuiConfigs extends Screen {
                 .build();
 
 
-        ButtonWidget modMenuButton = ButtonWidget.builder(Text.translatable("autologin.gui.button.finish"), button -> {
-                    this.close();
-                })
+        ButtonWidget modMenuButton = ButtonWidget.builder(Text.translatable("autologin.gui.button.finish"), button -> this.close())
                 .dimensions(width / 2 -70 , 200, 150, 20)
                 .tooltip(Tooltip.of(Text.translatable("autologin.gui.button.cue.expound")))
                 .build();
