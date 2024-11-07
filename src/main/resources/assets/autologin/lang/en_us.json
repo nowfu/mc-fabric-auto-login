@@ -1,0 +1,12 @@
+{
+  "autologin.gui.button.ok": "§atrue",
+  "autologin.gui.button.off": "§4false",
+  "autologin.gui.button.cue.isautologin": "Enable or disable auto-login feature",
+  "autologin.gui.button.finish": "Finish",
+  "autologin.gui.button.cue.expound": "Return to mod menu",
+  "autologin.gui.title": "AutoLogin Settings",
+  "autologin.gui.label.autologin": "Autologin 设置",
+  "autologin.gui.cue.expound": "After logging in on the server using /login, your password will be encrypted and recorded.\nThe next time you join this server, you will be logged in automatically.",
+  "modmenu.nameTranslation.autologin": "Autologin",
+  "modmenu.descriptionTranslation.autologin": "Auto-login after first /login."
+}

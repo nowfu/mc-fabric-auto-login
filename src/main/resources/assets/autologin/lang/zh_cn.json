@@ -1,0 +1,13 @@
+{
+  "autologin.gui.button.ok": "§a开启",
+  "autologin.gui.button.off": "§4关闭",
+  "autologin.gui.button.cue.isautologin": "启用或禁用自动登录功能",
+  "autologin.gui.button.finish": "完成",
+  "autologin.gui.button.cue.expound": "返回模组菜单页面",
+  "autologin.gui.title": "AutoLogin 设置",
+  "autologin.gui.label.autologin": "自动登录",
+  "autologin.gui.cue.expound": "在服务器上使用/login登录后，您的密码将被加密并记录。\n下次进入该服务器时，将自动登录。",
+  "modmenu.nameTranslation.autologin": "自动登录",
+  "modmenu.descriptionTranslation.autologin": "在使用/login登录后，下次进入服务器将自动登录。"
+
+}

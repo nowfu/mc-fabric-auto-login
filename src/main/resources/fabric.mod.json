@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "autologin",
+  "version": "${version}",
+  "name": "AutoLogin",
+  "description": "在服务器上使用/login登录后，下次进入该服务器将自动登录",
+  "authors": [
+    "起明渊白"
+  ],
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "源码": "https://space.bilibili.com/388406072/",
+        "bilibili": "https://space.bilibili.com/388406072/"
+      }
+    }
+  },
+  "license": "MIT",
+
+  "icon": "assets/autologin/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "fun.yuanbai.autologin.Autologin"
+    ],
+    "modmenu": [
+      "fun.yuanbai.autologin.compat.modmenu.ModMenuImpl"
+    ]
+  },
+  "mixins": [
+    "autologin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "fabric": "*",
+    "minecraft": ">=1.21"
+  }
+}
